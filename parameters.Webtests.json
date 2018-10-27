@@ -1,0 +1,30 @@
+{
+    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "appName": {
+            "value": "Web"
+        },
+        "emails": {
+            "value": [
+                "someone@somewhere.com"
+            ]
+        },
+        "testlocations": {
+            "value": [
+                {
+                    "Id": "us-il-ch1-azr"
+                },
+                {
+                    "Id": "us-ca-sjc-azr"
+                },
+                {
+                    "Id": "us-tx-sn1-azr"
+                }
+            ],
+            "metadata": {
+                "description": ""
+            }
+        }
+    }
+}

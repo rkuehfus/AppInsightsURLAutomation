@@ -1,0 +1,4 @@
+name,url,expected,frequency_secs,timeout_secs,failedLocationCount,description,guid
+MicrosoftPingTest1,Http://www.microsoft.com,200,300,30,1,url webtest ping of microsoft website,
+MicrosoftPingTest2,Http://www.microsoft.com,200,300,30,1,url webtest ping of microsoft website,
+MicrosoftPingTest3,Http://www.microsoft.com,200,300,30,1,url webtest ping of microsoft website,
